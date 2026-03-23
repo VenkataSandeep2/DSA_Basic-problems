@@ -15,11 +15,12 @@
 // Output: 2
 // Explanation: F(3) = F(2) + F(1) = 1 + 1 = 2
 
-class Solution {
-    public int fib(int n) {
+class Fibonum_509 {
+    public static void main(String args[]) {
       int first = 0;
       int second= 1;
       int sum =0;
+        int n = 5;
 
     if(n==0){
         return 0;
