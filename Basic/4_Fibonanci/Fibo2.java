@@ -1,10 +1,22 @@
-class Fibo2
+
+public class Fibo2 
+{
+
+	public static void main(String[] args) 
   {
-    public static void main(String args[])
-    {
-      int a = 1;
-      int b =  ;
-      int c = a+b;
-      
-    }
-  }
+		// TODO Auto-generated method stub
+		int first = 0;
+		int second  = 1;
+		int num = 15;
+		
+		System.out.println(first+" "+second);
+		
+			for (int  i = 2; i < num ;i++)
+			{
+				int sum =first + second;
+				System.out.println(sum);
+				first = second;
+				second = sum;
+			}
+	}
+}
