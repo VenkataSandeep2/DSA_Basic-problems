@@ -1,6 +1,6 @@
 class Reversenumber1{
     public static void main(String[] args) {
-    	int n = 132;
+    	int n = 1320;
         int ans = 0;
 
         while(n > 0) {
