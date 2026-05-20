@@ -2,7 +2,7 @@ class Reversestring
 {
 public static void main(String args[])
 	{
-	String s = "Sanjay" ;
+	String s = "San nas" ;
 	System.out.println("The Length of the String : "+s.length());
 	for(int i = 5 ;i>= 0 ; i--)
 	 	{
