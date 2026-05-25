@@ -1,6 +1,6 @@
 public class Primenumber1 {
 	public static void main(String[] args) {
-		int num = 61;
+		int num = 10007;
 		boolean isPrime = true;
 		
 		if(num<1)
