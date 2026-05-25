@@ -2,7 +2,7 @@
 public class Paladrome1 {
 
 	public static void main(String[] args) {
-		String s = "aba";
+		String s = "ababa";
 		String ans = "";
 		{
 			for (int i = s.length()-1 ; i>= 0;i--)
