@@ -1,5 +1,21 @@
 //Actually Doesn't use the number for class name but know the flow thats why use the numbers
 
+/*
+
+[1,2,3,4]
+  target is 1,3,6,10
+
+
+  now we will see the loop 
+  add the index value add the next nummber
+  1,1+2,3,4
+  1,3,1+2+3,4
+  1,3,6,1+2+3+4
+  1,3,6,10
+
+
+  */
+
 public class RunningSum_1480 
 {
 	public static void main(String[] args) 
@@ -30,24 +46,31 @@ public class RunningSum_1480
 
 }
 
+
+
+// LEETCODE MODE
+
+
+class Solution {
+    public int[] runningSum(int[] nums) 
+    {
+    
+        int sum = 0;
+        {
+        for(int i = 0;i<nums.length;i++)
+        {
+            sum = sum + nums[i];
+            nums[i]= sum;
+        } 
+        return nums;
+        
+        }
+    }
+}
+
 //OUTPUT
 /*
 Total sum is :-> 10
 1,3,6,10
 */
 
-/*
-
-[1,2,3,4]
-  target is 1,3,6,10
-
-
-  now we will see the loop 
-  add the index value add the next nummber
-  1,1+2,3,4
-  1,3,1+2+3,4
-  1,3,6,1+2+3+4
-  1,3,6,10
-
-
-  */
