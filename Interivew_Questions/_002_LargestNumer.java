@@ -1,6 +1,6 @@
 package com.InterviewQuestions;
 
-public class LargestNumber_02 
+public class _002_LargestNumer
 {
 	 public static void main(String args[])
 	    {
