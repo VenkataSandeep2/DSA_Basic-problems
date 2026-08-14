@@ -3,7 +3,7 @@ package com.InterviewQuestions;
 import java.util.HashSet;
 import java.util.Set;
 
-public class __004_RemoveDuplicates
+public class _004_RemoveDuplicates
 {
 	public static void main(String[] args) {
 		int[] arr = {10,20,30,50,30,80,10,5,6,15,10,10,};
