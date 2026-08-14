@@ -1,6 +1,6 @@
 package com.InterviewQuestions;
 
-public class __003_SecondLargest
+public class _003_SecondLargest
 {
 	public static void main(String[] args) {
 		int arr[] = {10,03,50,587,989,100,654,5,888,53,15,99,85};
