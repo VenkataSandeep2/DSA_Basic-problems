@@ -2,7 +2,7 @@ package com.InterviewQuestions;
 
 import java.util.Arrays;
 
-public class __04__RemoveDuplicates_
+public class _04__RemoveDuplicates_
 {
 	    public static void main(String[] args) 
 	    {
