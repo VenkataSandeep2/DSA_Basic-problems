@@ -3,7 +3,7 @@ package com.arrayList;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class RemoveDuplicates 
+public class _009_RemoveDuplicates 
 {
 	public static void main(String[] args) {
 		ArrayList<Integer> nums = new ArrayList<Integer>(Arrays.asList(10,20,30,50,40,20,50,40,33,10));
