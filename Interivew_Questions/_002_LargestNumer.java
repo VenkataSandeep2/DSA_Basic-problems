@@ -11,8 +11,9 @@ public class _002_LargestNumer
 	      for(int i=1;i<arr.length-1;i++)
 	        {
 	          if(arr[i] > max)
+           {
 	        	  max=arr[i];
-	            
+	          }
 	        }
 	      System.out.println(max);
 	    }
