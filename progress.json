@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "course": "Java DSA Basic-to-Hero",
+  "activeDay": 1,
+  "activeTopic": "Two Sum \u2014 brute force",
+  "completedDays": [],
+  "attempts": [
+    {
+      "day": 1,
+      "problem": "Two Sum",
+      "status": "in_progress",
+      "completed": false,
+      "confirmedLogic": "nums[i] + nums[j] == target",
+      "nextStep": "Decide how to report the two matching indices when the condition is true."
+    }
+  ],
+  "topicsNeedingRevision": [],
+  "hintsUsed": 0,
+  "mistakes": [],
+  "lastSuccessfulLessonPublication": null,
+  "publicationStatus": "local_scaffold_ready",
+  "updatedAt": "2026-10-21"
+}
