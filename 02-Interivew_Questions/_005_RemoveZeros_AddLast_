@@ -1,0 +1,26 @@
+package com.InterviewQuestions;
+
+public class _005_RemoveZeros_AddLast_ {
+	public static void main(String[] args) {
+		 int arr[] = {0, 5, 3, 1, 8, 6, 6, 9, 15, 3, 0, 15, 5, 6, 0};
+
+	        int index = 0;
+
+	        for (int i = 0; i < arr.length; i++) {
+
+	            if (arr[i] != 0) 
+	            {
+
+	                int temp = arr[i];
+	                arr[i] = arr[index];
+	                arr[index] = temp;
+
+	                index++;
+	            }
+	        }
+
+	        for (int i = 0; i < arr.length; i++) {
+	            System.out.print(arr[i] + " ");
+	        }
+	}
+}
